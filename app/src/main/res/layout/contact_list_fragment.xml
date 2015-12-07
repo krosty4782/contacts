@@ -1,0 +1,28 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="@dimen/margins"
+    android:paddingBottom="@dimen/margins"
+    android:paddingRight="@dimen/margins"
+    android:paddingLeft="@dimen/margins"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ListView
+        android:id="@+id/contactList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/contact_item"/>
+
+    <TextView
+        android:id="@+id/contactError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contactList"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

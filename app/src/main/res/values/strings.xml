@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Contacts</string>
+
+    <string name="network_error">Network Error</string>
+    <string name="api_url">http://fast-gorge.herokuapp.com</string>
+    <string name="avatar_url">http://api.adorable.io/avatars/</string>
+
+</resources>

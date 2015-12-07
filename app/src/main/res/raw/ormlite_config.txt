@@ -1,0 +1,42 @@
+# --table-start--
+dataClass=contacts.model.Contact
+tableName=Contact
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=first_name
+columnName=firstName
+# --field-end--
+# --field-start--
+fieldName=surname
+columnName=surname
+# --field-end--
+# --field-start--
+fieldName=address
+columnName=address
+# --field-end--
+# --field-start--
+fieldName=phoneNumber
+columnName=phoneNumber
+# --field-end--
+# --field-start--
+fieldName=email
+columnName=email
+# --field-end--
+# --field-start--
+fieldName=createdAt
+columnName=createdAt
+# --field-end--
+# --field-start--
+fieldName=updatedAt
+columnName=updatedAt
+# --field-end--
+# --field-start--
+fieldName=avatarUrl
+columnName=avatarUrl
+# --field-end--
+# --table-fields-end--
+# --table-end--
